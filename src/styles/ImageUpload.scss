@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+}
+
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.upload-box.image-selected {
+    background-color: transparent;
+}
+
+.upload-box span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+button.active {
+    width: 200px;
+    height: 50px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button.inactive {
+    width: 200px;
+    height: 50px;
+    background-color: #cccccc;
+    color: #888888;
+    border: none;
+    border-radius: 15px;
+    cursor: not-allowed;
+}
