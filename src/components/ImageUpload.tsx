@@ -3,7 +3,7 @@
 import { useState } from "react";
 import axios from "axios";
 import Image from "next/image";
-import UploadButton from "./Button";
+import { UploadButton } from "./Button";
 import "../styles/ImageUpload.scss";
 
 export default function ImageUpload() {

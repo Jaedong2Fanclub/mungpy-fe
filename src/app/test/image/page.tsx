@@ -1,9 +1,14 @@
-import ImageUpload from "../../../components/ImageUpload"; // 이미지 업로드 컴포넌트 불러오기.
+"use client";
+
+import ImageUpload from "@/components/ImageUpload";
+import { useRouter } from "next/navigation";
 
 export default function Page() {
+    const router = useRouter();
     return (
         <div>
             <ImageUpload />
+            <button onClick={() => router.push("/test/step")}>이동</button>
         </div>
     );
 }
